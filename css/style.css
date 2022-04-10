@@ -90,6 +90,7 @@ section{
 }
 .one{
    background-color:#2F303A;
+   background-image: url(../images/Img_one.jpg);
    padding: 200px 0px;
 }
 .main_h1{
@@ -99,7 +100,7 @@ section{
    letter-spacing: 0.06em;
    text-align: center;
    color: white;
-   margin-bottom: 40px;
+   margin-bottom: 28px;
 }
 .main_button_link{
    display: block;
@@ -255,4 +256,11 @@ footer{
 .tel_footer{
    margin-top: 9px;
    margin-left: 0;
+}
+/*    */
+.rectangle{
+   padding: 25px 100px;
+   background-color: #F5F4FA;
+   border-radius: 4px;
+   display: inline-block;
 }
