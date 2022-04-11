@@ -187,6 +187,27 @@ section{
    fill: #FFFFFF;
    background-color: #2196F3;
 }
+.social-list__link {
+   display: flex;
+   width: 44px;
+   height: 44px;
+   background-color: #fff;
+   border-radius: 50%;
+   align-items: center;
+   justify-content: center;
+   transition: all 250ms linear;
+ }
+ .social-icon {
+   width: 20px;
+   height: 20px;
+ }
+ 
+ .social-list__link:hover,
+ .social-list__link:focus {
+   fill: var(--main-color);
+   background-color: #000;
+ }
+
 
 /*Start section portfolio*/
 .portfolio{
@@ -246,6 +267,25 @@ section{
    align-content: space-between;
    gap: 30px;
 }
+/*start section four Nasi klienci*/
+.nasi_klienci_link{
+   display: flex;
+   width: 170px;
+   height: 92px;
+   border: 1px solid #AFB1B8;
+   border-radius: 4px;
+}
+.klienci_img{
+   fill: #AFB1B8;
+}
+.nasi_klienci_link:hover{
+  fill:#2196F3;
+  border-color: #2196F3;
+}
+
+
+
+
 /*start section footer*/
 footer{
    background-color: #2F303A;
