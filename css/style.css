@@ -324,7 +324,7 @@ footer{
    align-items: center;
    justify-content: center;
    transition: all 250ms linear;
-   fill:  #AFB1B8;
+   fill: #FFFFFF;
    margin-right: 10px;
 }
 .footer_social-link:hover{
