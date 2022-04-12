@@ -160,7 +160,6 @@ section{
 }
 .zespol_item{
    width: 270px;
-
    background-color: #FFFFFF;
    text-align: center;
    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
@@ -190,7 +189,7 @@ section{
    align-items: center;
    justify-content: center;
    transition: all 250ms linear;
-   fill:  #AFB1B8;;
+   fill:  #AFB1B8;
  }
  .social-icon {
    width: 20px;
@@ -269,18 +268,19 @@ section{
    height: 92px;
    border: 1px solid #AFB1B8;
    border-radius: 4px;
+   align-items: center;
+   justify-content: center;
+   transition: all 250ms linear;
+   fill:  #AFB1B8;;
 }
 .klienci_img{
-   fill: #AFB1B8;
+   width: 106px;
+   height: 60px;
 }
 .nasi_klienci_link:hover{
   fill:#2196F3;
   border-color: #2196F3;
 }
-
-
-
-
 /*start section footer*/
 footer{
    background-color: #2F303A;
@@ -290,7 +290,6 @@ footer{
    padding-bottom: 60px;
    color: #FFFFFF;
    display: flex;
-   flex-direction: column;
    line-height: 24px;
    font-size: 14px;
 }
@@ -310,10 +309,26 @@ footer{
    margin-top: 9px;
    margin-left: 0;
 }
-/*    */
-.rectangle{
-   padding: 25px 100px;
-   background-color: #F5F4FA;
-   border-radius: 4px;
-   display: inline-block;
+.contacts_social{
+   margin-left: 70px;
 }
+.footer_link_items{
+   margin-top: 20px;
+}
+.footer_social-link{
+   display: flex;
+   width: 44px;
+   height: 44px;
+   background-color: #FFFFFF1A;
+   border-radius: 50%;
+   align-items: center;
+   justify-content: center;
+   transition: all 250ms linear;
+   fill:  #AFB1B8;
+   margin-right: 10px;
+}
+.footer_social-link:hover{
+   fill:#ffffff;
+   background-color: #2196F3;
+ }
+/*    */
