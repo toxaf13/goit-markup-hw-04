@@ -65,9 +65,12 @@ section{
 }
 .nav_hover{
    color: #212121; 
+   display: block;
+   fill: #757575;
 }
 .nav_hover:hover{
    color: #2196F3;
+   fill: #2196F3;
 }
 .nav_hover:active{
    color: #2196F3;
@@ -81,7 +84,6 @@ section{
 }
 .icon_contacts{
    margin-right: 10px;
-   fill: #2196F3;
 }
 /*start section one*/
 .main_one{
@@ -179,15 +181,7 @@ section{
    justify-content: space-evenly;
    margin-bottom: 30px;
 }
-.icon{
-   padding: 12px;
-   fill: #2a2a2a;
-}
-.icon:hover{
-   fill: #FFFFFF;
-   background-color: #2196F3;
-}
-.social-list__link {
+.social-list_link {
    display: flex;
    width: 44px;
    height: 44px;
@@ -196,16 +190,17 @@ section{
    align-items: center;
    justify-content: center;
    transition: all 250ms linear;
+   fill:  #AFB1B8;;
  }
  .social-icon {
    width: 20px;
    height: 20px;
  }
  
- .social-list__link:hover,
- .social-list__link:focus {
-   fill: var(--main-color);
-   background-color: #000;
+ .social-list_link:hover,
+ .social-list_link:focus {
+   fill:#ffffff;
+   background-color: #2196F3;
  }
 
 
