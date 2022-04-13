@@ -57,6 +57,8 @@ section{
    margin-left: 47px;
 }
 .contacts a{
+   display: flex;
+   align-items: center;
    color: #757575;
    font-weight: 500;
    font-size: 14px;
@@ -143,6 +145,12 @@ section{
    line-height: 42px;
    letter-spacing: 0.03em;
    margin-bottom: 50px;
+}
+.rectangle{
+   padding: 25px 100px;
+   background-color: #F5F4FA;
+   border-radius: 4px;
+   display: inline-block;
 }
 /*start section three*/
 .three{
@@ -260,6 +268,10 @@ section{
    flex-wrap: wrap;
    align-content: space-between;
    gap: 30px;
+}
+.portfolio_item:hover{
+   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+   cursor: pointer;
 }
 /*start section four Nasi klienci*/
 .nasi_klienci_link{
