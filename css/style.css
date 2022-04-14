@@ -98,7 +98,12 @@ section{
 }
 .one{
    background-color:#2F303A;
-   background-image: url(../images/Img_one.jpg);
+   background-image:linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)),
+    url(../images/Img_one.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
    padding: 200px 0px;
 }
 .main_h1{
