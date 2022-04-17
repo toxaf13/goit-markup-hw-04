@@ -54,8 +54,8 @@
             <div class="main_h1">
                <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU </h1>
             </div>
-            <button class="button">
-               <a class="main_button_link">Zamów usługe</a>
+            <button class="button" type="button" data-modal-open>
+               <a class="main_button_link " data-modal-open>Zamów usługe</a>
             </button>
          </div>
       </div>
@@ -103,14 +103,17 @@
          <div class="praca">
             <h2 class="praca_h2">Czym się zajmujemy</h2>
             <ul>
-               <li class="praca_item">
+               <li class="praca_item thumb">
                   <img src="images/1.jpg" alt="Computer" width="370" class="img_item">
+                  <p class="label" >Aplikacje komputerowe</p>
                </li>
-               <li class="praca_item">
+               <li class="praca_item thumb">
                   <img src="images/2.jpg" alt="Computer" width="370" class="img_item">
+                  <p class="label" >Aplikacje mobilne</p>
                </li>
-               <li class="praca_item">
+               <li class="praca_item thumb">
                   <img src="images/3.jpg" alt="Computer" width="370" class="img_item">
+                  <p class="label" >Rozwiązania graficzne</p>
                </li>
             </ul>
          </div>
@@ -376,5 +379,17 @@
          </div>
       </div>
    </footer>
+   <!-- Modal -->
+   <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>
+           <img src=" images/Vector.svg " alt="">
+        </button>
+        <form class="modal-form" action="#" method="post">
+        </form>
+      </div>
+    </div>
+    <!--  -->
+   <script src="js/modal.js"></script>
 </body>
 </html>
